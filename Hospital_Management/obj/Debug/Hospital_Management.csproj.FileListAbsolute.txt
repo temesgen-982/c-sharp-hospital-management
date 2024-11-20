@@ -15,3 +15,5 @@ C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hosp
 C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Form6.resources
 C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Form7.resources
 C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Form8.resources
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Form10.resources
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Form9.resources
