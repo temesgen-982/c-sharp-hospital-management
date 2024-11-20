@@ -15,6 +15,15 @@ namespace Hospital_Management
         public Form4()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
+            this.Size = new Size(900, 500);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Close();
         }
     }
 }

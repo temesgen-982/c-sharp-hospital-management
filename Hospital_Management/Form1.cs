@@ -15,8 +15,14 @@ namespace Hospital_Management
         public Form1()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
+            this.Size = new Size(900, 500);
         }
-
+        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            panel1.Width = 180;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             string username = textBox1.Text;

@@ -10,32 +10,30 @@ using System.Windows.Forms;
 
 namespace Hospital_Management
 {
-    public partial class Form2 : Form
+    public partial class Form7 : Form
     {
-        public Form2()
+        public Form7()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
             this.Size = new Size(900, 500);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            panel1.Width = 180;
-        }
-
         private void button5_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            form1.Show();
             this.Close();
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form8 form8 = new Form8();
-            form8.Show();
+            Form6 form6 = new Form6();
+            form6.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
             this.Close();
         }
     }

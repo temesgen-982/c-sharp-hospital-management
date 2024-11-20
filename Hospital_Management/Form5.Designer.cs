@@ -1,6 +1,6 @@
 ﻿namespace Hospital_Management
 {
-    partial class Form4
+    partial class Form5
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -40,7 +41,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -62,10 +62,21 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel1.Location = new System.Drawing.Point(360, 46);
+            this.panel1.Location = new System.Drawing.Point(362, 60);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(331, 361);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Heebo", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label5.Location = new System.Drawing.Point(86, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(134, 47);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Sign up";
             // 
             // button2
             // 
@@ -176,37 +187,25 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "First name";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Heebo", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label5.Location = new System.Drawing.Point(88, 10);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 47);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Sign up";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::Hospital_Management.Properties.Resources.pexels_negativespace;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-3, -17);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(180, 500);
-            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // Form4
+            // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(884, 461);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "Form4";
-            this.Text = "Patient Registration";
+            this.Controls.Add(this.pictureBox1);
+            this.Name = "Form5";
+            this.Text = "Doctor Registration";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -217,18 +216,18 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
