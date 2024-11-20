@@ -1,0 +1,11 @@
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csprojAssemblyReference.cache
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Form1.resources
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Form2.resources
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Properties.Resources.resources
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.GenerateResource.cache
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.csproj.CoreCompileInputs.cache
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\bin\Debug\Hospital_Management.exe.config
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\bin\Debug\Hospital_Management.exe
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\bin\Debug\Hospital_Management.pdb
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.exe
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.pdb
