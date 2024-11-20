@@ -9,3 +9,4 @@ C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\bin\Debug\Hosp
 C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\bin\Debug\Hospital_Management.pdb
 C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.exe
 C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.pdb
+C:\Users\NEW\Documents\C#\Hospital_Management\Hospital_Management\obj\Debug\Hospital_Management.Form3.resources

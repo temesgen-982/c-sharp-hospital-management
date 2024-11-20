@@ -19,8 +19,22 @@ namespace Hospital_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
-            form2.Show();
+            string username = textBox1.Text;
+            if(username[0]=='p' || username[0] == 'P')
+            {
+                Form2 form2 = new Form2();
+                form2.Show();
+            }
+            else if(username[0] == 'd' || username[0] == 'D')
+            {
+                Form3 form3 = new Form3();
+                form3.Show();
+            }
+            else
+            {
+
+            }
+            
         }
     }
 }
