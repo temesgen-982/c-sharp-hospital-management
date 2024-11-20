@@ -108,29 +108,29 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(81, 200);
+            this.label2.Location = new System.Drawing.Point(81, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 13);
+            this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Health Summary";
+            this.label2.Text = "Gender : ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(84, 80);
+            this.label3.Location = new System.Drawing.Point(81, 104);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Gender : ";
+            this.label3.Text = "Age : ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(84, 107);
+            this.label4.Location = new System.Drawing.Point(84, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(84, 13);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Age : ";
+            this.label4.Text = "Health Summary";
             // 
             // Form2
             // 
