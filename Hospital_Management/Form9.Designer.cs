@@ -53,10 +53,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(25, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(179, 20);
+            this.label2.Size = new System.Drawing.Size(160, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Additional Comments";
             // 
@@ -71,10 +71,10 @@
             "VeryGood"});
             this.comboBox1.Location = new System.Drawing.Point(65, 57);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.comboBox1.Size = new System.Drawing.Size(167, 21);
+            this.comboBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.comboBox1.Size = new System.Drawing.Size(139, 21);
             this.comboBox1.TabIndex = 3;
-            this.comboBox1.Text = "Rate Your Experiance";
+            this.comboBox1.Text = "Rate Your Experience";
             // 
             // textBox1
             // 
@@ -96,12 +96,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(24, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(215, 24);
+            this.label4.Size = new System.Drawing.Size(165, 20);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Rate Your Experiance";
+            this.label4.Text = "Rate Your Experience";
             // 
             // panel2
             // 
@@ -109,17 +109,17 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(281, 32);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(391, 46);
+            this.panel2.Size = new System.Drawing.Size(347, 46);
             this.panel2.TabIndex = 13;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(138, 16);
+            this.label1.Location = new System.Drawing.Point(25, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 24);
+            this.label1.Size = new System.Drawing.Size(96, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "FeedBack";
             // 
@@ -132,7 +132,7 @@
             this.panel3.Controls.Add(this.button1);
             this.panel3.Location = new System.Drawing.Point(281, 105);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(517, 309);
+            this.panel3.Size = new System.Drawing.Size(385, 309);
             this.panel3.TabIndex = 14;
             // 
             // panel1
@@ -199,6 +199,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Billng information";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -217,12 +218,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(884, 461);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Name = "Form9";
             this.Text = "Feedback";
+            ((System.ComponentModel.ISupportInitialize)(this.form)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);

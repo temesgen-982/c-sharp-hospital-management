@@ -25,5 +25,12 @@ namespace Hospital_Management
             form2.Show();
             this.Close();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form10 form10 = new Form10();
+            form10.Show();
+            this.Close();
+        }
     }
 }

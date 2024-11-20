@@ -55,8 +55,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel1.Controls.Add(this.BillingManagementForm);
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.comboBox1);
@@ -65,17 +64,17 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(213, 68);
+            this.panel1.Location = new System.Drawing.Point(213, 106);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(586, 328);
+            this.panel1.Size = new System.Drawing.Size(586, 290);
             this.panel1.TabIndex = 14;
             // 
             // BillingManagementForm
             // 
-            this.BillingManagementForm.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.BillingManagementForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BillingManagementForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BillingManagementForm.Location = new System.Drawing.Point(173, 11);
+            this.BillingManagementForm.BackColor = System.Drawing.SystemColors.Window;
+            this.BillingManagementForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BillingManagementForm.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BillingManagementForm.Location = new System.Drawing.Point(242, 53);
             this.BillingManagementForm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BillingManagementForm.Name = "BillingManagementForm";
             this.BillingManagementForm.Size = new System.Drawing.Size(251, 50);
@@ -85,7 +84,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(62, 185);
+            this.button2.Location = new System.Drawing.Point(62, 163);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(150, 23);
@@ -95,7 +94,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(225, 187);
+            this.button3.Location = new System.Drawing.Point(225, 163);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(142, 23);
@@ -107,7 +106,7 @@
             // 
             this.comboBox1.AllowDrop = true;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(383, 144);
+            this.comboBox1.Location = new System.Drawing.Point(375, 118);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(142, 21);
@@ -116,7 +115,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(383, 185);
+            this.button4.Location = new System.Drawing.Point(225, 116);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(142, 23);
@@ -131,7 +130,7 @@
             this.ServiceDescription,
             this.Amount,
             this.Date});
-            this.dataGridView1.Location = new System.Drawing.Point(112, 64);
+            this.dataGridView1.Location = new System.Drawing.Point(62, 37);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(348, 58);
@@ -154,7 +153,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(62, 243);
+            this.textBox1.Location = new System.Drawing.Point(62, 212);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(150, 20);
@@ -162,7 +161,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(225, 240);
+            this.button5.Location = new System.Drawing.Point(225, 212);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(142, 23);
@@ -172,7 +171,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(62, 142);
+            this.button1.Location = new System.Drawing.Point(62, 116);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(150, 23);
@@ -234,6 +233,7 @@
             this.button8.TabIndex = 3;
             this.button8.Text = "Submit feedback";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -262,7 +262,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(884, 461);
+            this.Controls.Add(this.BillingManagementForm);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form10";
